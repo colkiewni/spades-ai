@@ -43,8 +43,8 @@ ROLLOUT_MAX    = 200      # max steps in a rollout
 
 # ── Storage ───────────────────────────────────────────────────
 GITHUB_USER    = "colkiewni"
-GITHUB_REPO    = "spades-ai"
-HF_REPO        = None     # set to "username/spades-ai-models" after HF setup
+GITHUB_REPO    = "api"
+HF_REPO        = "colbionas/spades-ai"     # set to "username/spades-ai-models" after HF setup
 
 DATA_DIR       = "data"
 MODELS_DIR     = "models"
