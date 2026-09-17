@@ -7,10 +7,10 @@ venv/
 .venv/
 
 # Data — stored on cloud, not in git
-/data/*
+!/data/*
 !/data/.gitkeep
 !/data/ismcts_experiences/
-/data/ismcts_experiences/*
+!/data/ismcts_experiences/*
 !/data/ismcts_experiences/.gitkeep
 !/data/ismcts_experiences.tar.zst
 
