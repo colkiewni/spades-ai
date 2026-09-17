@@ -7,13 +7,16 @@ venv/
 .venv/
 
 # Data — stored on cloud, not in git
-#data
-!data/.gitkeep
-!data/ismcts_experiences/.gitkeep
+/data/*
+!/data/.gitkeep
+!/data/ismcts_experiences/
+/data/ismcts_experiences/*
+!/data/ismcts_experiences/.gitkeep
+!/data/ismcts_experiences.tar.zst
 
 # Models — stored on Hugging Face, not in git
-#models/
-#!models/.gitkeep
+# /models/
+# !/models/.gitkeep
 
 # Colab
 *.ipynb_checkpoints/
